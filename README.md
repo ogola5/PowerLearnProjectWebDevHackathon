@@ -9,7 +9,12 @@ Power learn Project Hackathon Group 5
 ## Description
 Project 1 is in the Project 1 Folder. This is a landing Page
 Project 2 and 3 are in the same folder. This is because Project 3 is a continuation of Project 2
+
+
 The Life Demo can be found Here>>>>
 
 Project 1
 https://project1.danielzion.repl.co/
+
+Project 2 and 3
+https://project-2-and-3.danielzion.repl.co/
