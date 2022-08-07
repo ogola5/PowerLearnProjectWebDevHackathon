@@ -14,7 +14,7 @@
 
 - On the images, add your group members image with a little description. 
 
-- Make use of great colors to make the website as attractive as possible.
+- Make use of great colors to make the website as attractive as possible.
 
-- Be as creative as possible. 
+- Be as creative as possible. 
 
