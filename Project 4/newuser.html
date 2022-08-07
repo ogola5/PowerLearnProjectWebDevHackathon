@@ -14,19 +14,20 @@
                 <img class="logo" src="./images/power-logo.jpeg"/>
             </div>
             <div>
-                <h1 class="first">PLP BANK</h1>
+            <h1 class="first">PLP BANK</h1>
                 
             </div>
         </div>
         <div >
-            <h3 class="in"><i> Input The Amount You Want To Deposit Below</i></h3>
-                <center><input type="text"  id="deposit" pattern="[0-9]" minlength="4" maxlength="9" size="9" autofocus></center>
+            <h3 class="second"><i>Open An Account</i></h3>
+                <input id="newname" type="text" placeholder="Surname , Firstname" required='true'>
+                <h3><i>Create 4 Digit Pin</i></h3>
+                <input id="pin1" type="password" placeholder="****" pattern="[0-9]{4,}" minlength="4" maxlength="4" size="3" required='true'>
+                <h3><i>Confirm Pin</i></h3>
+                <input id="pin2" type="password" placeholder="****" pattern="[0-9]{4,}" minlength="4" maxlength="4" size="3" required='true'>
                 <div class="btn-div">
-                    <center><button class="confirm btn" onclick="depoSit()">CONFIRM</button></center>
-                </div>
-                <div class="btn-div">
-                    <center><button class="btn" onclick="cancelPrompt()">PROCEED</button></center>
-                </div>
+                <button id="nextbutton" class="next btn" >PROCEED</button>
+            </div>
 
         </div>
     </div>

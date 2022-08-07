@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="receipt.css">
+</head>
+<body onload="reCeiptname()">
+    <div class="maindiv" >
+        <h1 class="first">PLP BANK</h1>
+        <h3><i> Dear <span id="rename"></span> <br>
+        Please see below details of the transaction on your bank account </i></h3>
+        
+        <table>
+            <tbody>
+                <tr class="x">
+                    <td>Account Number</td>
+                    <td>419<span id="acn"></span></td>
+                </tr>
+                <tr class="y">
+                    <td>Effective Date</td>
+                    <td id="edate"></td>
+                </tr>
+                <tr class="x">
+                    <td>Currency Naira</td>
+                    <td>NGN</td>
+                </tr>
+                <tr class="y">
+                    <td>Description</td>
+                    <td>Transaction Done Using NBA ATM GUI </td>
+                </tr>
+                <tr class="x">
+                    <td>Reference Code</td>
+                    <td id="ref"></td>
+                </tr>
+                <tr class="y">
+                    <td>Method</td>
+                    <td>ATM</td>
+                </tr>
+                <tr class="x">
+                    <td>Transaction Type</td>
+                    <td>Online Bank Transaction</td>
+                </tr>
+                <tr class="y">
+                    <td>Date of Transaction</td>
+                    <td id="tdate"></td>
+                </tr>
+                <tr class="x">
+                    <td>Amount</td>
+                    <td id="amnt"></td>
+                </tr>
+                <tr class="y">
+                    <td>Initial Balance</td>
+                    <td id="ibal"></td>
+                </tr>
+                <tr class="x">
+                    <td>Current Balance</td>
+                    <td id="cbal"></td>
+                </tr>
+            </tbody>
+        </table>
+       
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

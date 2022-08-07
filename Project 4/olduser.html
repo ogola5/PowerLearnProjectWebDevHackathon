@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="maindiv">
+            <div id="logo">
+                <img class="logo" src="./images/power-logo.jpeg"/>
+            </div>
+        <div>
+        <h1 class="first">PLP BANK</h1>
+            </div>
+        </div>
+        <div >
+            <h3 class="second"><i>Input Username</i></h3>
+            <input id="username" type="text" placeholder="Surname , Firstname" required='true'>
+            <h3><i>Input Pin</i></h3>
+            <input id="pin" type="password" placeholder="****" pattern="[0-9]" minlength="4" maxlength="4" size="3" required='true'>
+        <div class="btn-div">
+            <button id="proceedb" class="next btn" onclick="NAME()" >PROCEED</button>
+        </div>
+
+        </div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
