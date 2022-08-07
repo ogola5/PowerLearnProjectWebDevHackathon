@@ -1,12 +1,12 @@
-WEBSITE CHALLENGE
+# WEBSITE CHALLENGE
 
-Create a website that appears as the one below.
+### Create a website that appears as the one below.
 
  
 
-Note the following.
+### Note the following.
 
-l Make the logo as your group number.
+- Make the logo as your group number.
 
 l Make a responsive navigation bar such that it can be accessible in mobile and large screens.
 
