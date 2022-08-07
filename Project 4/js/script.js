@@ -1,4 +1,4 @@
-// PROJECTNEW1
+// New USer
 
 document.getElementById('nextbutton').addEventListener('click',function () {
     var PIN1 = parseInt(document.getElementById('pin1').value);
@@ -38,7 +38,7 @@ function cancelPrompt() {
     var canCel = prompt("Do you want to make another transaction? \n 1.yes \n 2.no");
 
     if (canCel == '1' || canCel == 'yes') {
-        location.href = 'pinold.html';
+        location.href = 'olduser.html';
         } else if( canCel == '2' || canCel == 'no'){ 
         location.href = 'receipt.html';
         } else {
@@ -46,16 +46,17 @@ function cancelPrompt() {
     };
 };
 
-function NAME() {
-    var beyOnce = document.getElementById('username');
-    var jayZ = document.getElementById('pin');
 
-    if (beyOnce.value == "" || jayZ.value == "") {
+function NAME() {
+    var name = document.getElementById('username');
+    var pin = document.getElementById('pin');
+
+    if (name.value == "" || pin.value == "") {
         alert('Please provide your details below!');
-    } else if ( beyOnce.value !== sessionStorage.getItem('user') || jayZ.value !== sessionStorage.getItem('PIN')) {
+    } else if ( name.value !== sessionStorage.getItem('user') || pin.value !== sessionStorage.getItem('PIN')) {
         alert('Invalid Username or Password');
     }
-    else if (beyOnce.value == sessionStorage.getItem('user') && jayZ.value == sessionStorage.getItem('PIN')) {
+    else if (name.value == sessionStorage.getItem('user') && pin.value == sessionStorage.getItem('PIN')) {
         location.href = 'welcome.html';
     };
 };
@@ -77,6 +78,7 @@ function depoSit() {
     if (('sessionStorage') in window && window['sessionStorage'] !==null) {
         var dePosit = parseInt(document.querySelector('#deposit').value);
         sessionStorage.setItem('deposit',dePosit);
+        console.log(dePosit)
     };
 };
 

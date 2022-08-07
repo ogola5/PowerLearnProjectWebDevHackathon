@@ -25,7 +25,7 @@ body {
 }
 
 .banner {
-    width: 90%;
+    width: 80%;
     object-fit: cover;
 }
 
@@ -33,10 +33,10 @@ i {
     color: white
 }
 .maindiv {
-    width: 50%;
-    margin-left: 7%;
+    width: 90%;
+    /* margin-left: 7%;
     margin-top: 5%;
-    margin-right: 7%;
+    margin-right: 7%; */
 }
 
 .first {
@@ -47,7 +47,7 @@ i {
     background-color: brown;
     color: #32a9ad;
     cursor: pointer;
-    padding: 5%;
+    padding: 1.2em;
     border: 1px solid #32a9ad;
 }
 
@@ -60,6 +60,11 @@ i {
 a {
     border-radius: 30%;
     text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:brown
 }
 
 .btn-div {
@@ -70,9 +75,25 @@ a {
     margin-right: 20%;
 }
 
+input {
+    padding: 0.6em;
+}
+
 ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2em;
     list-style: none;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.3em 2em;
+    width: 12em;
+}
+
+.withdraw {
+    justify-self: center;
+    text-align: center;
 }
