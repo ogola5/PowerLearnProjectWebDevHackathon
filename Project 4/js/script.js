@@ -38,9 +38,9 @@ function cancelPrompt() {
     var canCel = prompt("Do you want to make another transaction? \n 1.yes \n 2.no");
 
     if (canCel == '1' || canCel == 'yes') {
-        location.href = 'olduser.html';
+        location.href = 'index.html';
         } else if( canCel == '2' || canCel == 'no'){ 
-        location.href = 'receipt.html';
+        // location.href = '';
         } else {
         alert('invalid input');
     };
@@ -63,6 +63,8 @@ function NAME() {
 
 function tranSaction() {
 
+
+
     if (('sessionStorage') in window && window['sessionStorage'] !==null) {
         var nix= document.getElementById('input').value;
         sessionStorage.setItem('amount',nix); 
@@ -80,6 +82,7 @@ function depoSit() {
         sessionStorage.setItem('deposit',dePosit);
         console.log(dePosit)
     };
+    cancelPrompt();
 };
 
 // RECEIPT
