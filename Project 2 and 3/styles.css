@@ -32,3 +32,8 @@ footer {
 .btn {
 	margin-top: 0.5em;
 }
+
+.list-group-item > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
